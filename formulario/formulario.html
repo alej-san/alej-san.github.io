@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head> 
+   
+        <title>Formulario</title>
+    </head>
+    <body>
+        <h1>Formulario de cita médica</h1>
+        <form>
+               <fieldset>
+            <legend>Datos personales</legend>
+                <label for="nom"> Nombre </label>
+                &nbsp; &nbsp;
+                <input type="text" id="nom">
+                <br>
+                <label for="ap">Apellidos </label>
+                &nbsp;
+                <input type="text" id="ap">
+                <br>
+                <label for="mail">Email </label>
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <input  type="email" id="mail">
+                <br>
+                <label for="pass"> Seg. Social </label>
+                <input type="password" id="pass">
+                <br>
+                <label for="tlf">Teléfono</label>
+                &nbsp; &nbsp;
+                <input type="number" id="tlf"> <br>
+                <label for="bday"> Fecha de nacimiento </label>
+                <input type="date" id="bday">
+                <br>
+                <label for="gend"> Género </label>
+                <select id="gend">
+                    <option>Hombre</option>
+                    <option>Mujer</option>
+                    <option>Otro</option>
+                </select>
+                <br>
+                <label for="nat"> Nacionalidad</label>
+                <select id="nat">
+                    <option>Española</option>
+                    <option>Francesa</option>
+                    <option>Andorrana</option>
+                    <option>Marroquí</option>
+                    <option>Inglesa</option>
+                    <option>Otras</option>
+                </select>  <br>    
+                <label for="spec">En caso otras, por favor especifique</label>
+                <input type="text" id="spec">
+               </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Datos médicos</legend>
+                <label for="vis"> ¿Es este su hospital asignado? </label>
+                <input type="checkbox" id="vis">
+                <br>
+                <p> Area de cita</p>
+                <input type="checkbox" id="pedi"> <label for="pedi">Pediatría</label> <br>
+                <input type="checkbox" id="gine"> <label for="gine">Ginecología</label> <br>
+                <input type="checkbox" id="rehab"> <label for="rehab">Rehabilitación</label> <br>
+                <input type="checkbox" id="urg"> <label for="urg">Urgencias</label> <br>
+                <br>
+                <label for="motivo">Explique el motivo de su visita</label> <br>
+                <textarea cols="90" rows="15" id="motivo"></textarea>
+                <br>
+                <input type="button" value="Enviar">
+                        </fieldset>
+        </form>
+    </body></html>
